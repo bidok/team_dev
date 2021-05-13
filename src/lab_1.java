@@ -16,7 +16,7 @@ public class lab_1 {
                 ". The main planet in Respublic is Korusant " + "and there are " + numsPersonOfKotusant + " people lives on it." +
                 " All facts in this text is " + truthFact + ".");*/
 
-        String str = "Vasia other branch test";
+        String str = "Vasia other branch test for asd";
 
 
 
