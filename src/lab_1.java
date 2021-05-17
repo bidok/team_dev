@@ -1,3 +1,16 @@
+import java.math.BigDecimal;
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Set;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
 public class lab_1 {
     public static void main(String[] args) {
         String nameTheme = "Star Wars";
@@ -16,10 +29,13 @@ public class lab_1 {
                 ". The main planet in Respublic is Korusant " + "and there are " + numsPersonOfKotusant + " people lives on it." +
                 " All facts in this text is " + truthFact + ".");*/
 
-        String str = "Vasia other branch test for asd";
+        List<BigDecimal> bigDecimals = new ArrayList<>(Arrays.asList(
+                new BigDecimal(12),
+                new BigDecimal(12)
+        ));
 
-
-
-
+        bigDecimals.stream().map(Objects::requireNonNull)
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
     }
+    sdfsdf
 }
